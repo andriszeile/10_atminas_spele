@@ -2,13 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, inital-scale=0.1">
+
         <title>Materiālu aprēķināšana</title>
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <div class="container"> <!--galvenais konteiners-->
-            
             <h2>Linoleja kalkulators</h2>
             <div class="calculator"><!--kalkulatora konteiners-->
                 <div class="input-container"><!--ievades konteiners-->
@@ -43,7 +42,40 @@
                             <label>Garums gareniski:</label>
                             <input type="text" id="lengthLong" readonly>
                         </div>
-                        skersam
+                        <div class="input-group">
+                            <label>šķērsām:</label>
+                            <input type="text" id="lengthCross" readonly>
+                        </div>
+                    </div>
+                    <div class="result-row"><!--Nopērkamā linoleja izmaksas-->
+                        <div class="input-group">
+                            <label>Izmaksas gareniski:</label>
+                            <input type="text" id="costLong" readonly>
+                        </div>
+                        <div class="input-group">
+                            <label>šķērsām:</label>
+                            <input type="text" id="costCross" readonly>
+                        </div>
+                    </div>
+                    <div class="result-row"><!--Nopērkamā linoleja atgriezumi-->
+                        <div class="input-group">
+                            <label>Atgriezumi gareniski:</label>
+                            <input type="text" id="wasteLong" readonly>
+                        </div>
+                        <div class="input-group">
+                            <label>šķērsām:</label>
+                            <input type="text" id="wasteCross" readonly>
+                        </div>
+                    </div>
+                    <div class="result-row"><!--Nopērkamā linoleja atgriezumu izmaksas-->
+                        <div class="input-group">
+                            <label>Atgriezumu izmaksas gareniski:</label>
+                            <input type="text" id="wasteCostLong" readonly>
+                        </div>
+                        <div class="input-group">
+                            <label>šķērsām:</label>
+                            <input type="text" id="wasteCostCross" readonly>
+                        </div>
                     </div>
                 </div><!--izvades konteiners beidzas-->
 
